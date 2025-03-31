@@ -83,17 +83,49 @@ CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/src/main.cpp -o CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.s
 
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o: CMakeFiles/PriorityQueueSimulator.dir/flags.make
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o: ../src/queue/Client.cpp
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o: CMakeFiles/PriorityQueueSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o"
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o -MF CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o.d -o CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o -c /home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/src/queue/Client.cpp
+
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/src/queue/Client.cpp > CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.i
+
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/src/queue/Client.cpp -o CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.s
+
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o: CMakeFiles/PriorityQueueSimulator.dir/flags.make
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o: ../src/queue/PriorityQueue.cpp
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o: CMakeFiles/PriorityQueueSimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o"
+	ccache /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o -MF CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o.d -o CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o -c /home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/src/queue/PriorityQueue.cpp
+
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/src/queue/PriorityQueue.cpp > CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.i
+
+CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/src/queue/PriorityQueue.cpp -o CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.s
+
 # Object files for target PriorityQueueSimulator
 PriorityQueueSimulator_OBJECTS = \
-"CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.o"
+"CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.o" \
+"CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o" \
+"CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o"
 
 # External object files for target PriorityQueueSimulator
 PriorityQueueSimulator_EXTERNAL_OBJECTS =
 
 PriorityQueueSimulator: CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.o
+PriorityQueueSimulator: CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o
+PriorityQueueSimulator: CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o
 PriorityQueueSimulator: CMakeFiles/PriorityQueueSimulator.dir/build.make
 PriorityQueueSimulator: CMakeFiles/PriorityQueueSimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PriorityQueueSimulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hexagon/Documents/Personal/Pessoal/Programação/Dynamic-Priority-Queue-Simulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PriorityQueueSimulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PriorityQueueSimulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

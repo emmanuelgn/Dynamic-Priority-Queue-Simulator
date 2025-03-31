@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.o -o PriorityQueueSimulator 
+/usr/bin/c++ CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.o CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o -o PriorityQueueSimulator 

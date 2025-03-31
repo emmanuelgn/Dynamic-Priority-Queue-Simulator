@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.o"
   "CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.o.d"
+  "CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o"
+  "CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o.d"
+  "CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o"
+  "CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o.d"
   "PriorityQueueSimulator"
   "PriorityQueueSimulator.pdb"
 )

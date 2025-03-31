@@ -153,6 +153,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PriorityQueueSimulator.dir/build.make CMakeFiles/PriorityQueueSimulator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/queue/Client.o: src/queue/Client.cpp.o
+.PHONY : src/queue/Client.o
+
+# target to build an object file
+src/queue/Client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PriorityQueueSimulator.dir/build.make CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.o
+.PHONY : src/queue/Client.cpp.o
+
+src/queue/Client.i: src/queue/Client.cpp.i
+.PHONY : src/queue/Client.i
+
+# target to preprocess a source file
+src/queue/Client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PriorityQueueSimulator.dir/build.make CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.i
+.PHONY : src/queue/Client.cpp.i
+
+src/queue/Client.s: src/queue/Client.cpp.s
+.PHONY : src/queue/Client.s
+
+# target to generate assembly for a file
+src/queue/Client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PriorityQueueSimulator.dir/build.make CMakeFiles/PriorityQueueSimulator.dir/src/queue/Client.cpp.s
+.PHONY : src/queue/Client.cpp.s
+
+src/queue/PriorityQueue.o: src/queue/PriorityQueue.cpp.o
+.PHONY : src/queue/PriorityQueue.o
+
+# target to build an object file
+src/queue/PriorityQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PriorityQueueSimulator.dir/build.make CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.o
+.PHONY : src/queue/PriorityQueue.cpp.o
+
+src/queue/PriorityQueue.i: src/queue/PriorityQueue.cpp.i
+.PHONY : src/queue/PriorityQueue.i
+
+# target to preprocess a source file
+src/queue/PriorityQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PriorityQueueSimulator.dir/build.make CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.i
+.PHONY : src/queue/PriorityQueue.cpp.i
+
+src/queue/PriorityQueue.s: src/queue/PriorityQueue.cpp.s
+.PHONY : src/queue/PriorityQueue.s
+
+# target to generate assembly for a file
+src/queue/PriorityQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PriorityQueueSimulator.dir/build.make CMakeFiles/PriorityQueueSimulator.dir/src/queue/PriorityQueue.cpp.s
+.PHONY : src/queue/PriorityQueue.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/queue/Client.o"
+	@echo "... src/queue/Client.i"
+	@echo "... src/queue/Client.s"
+	@echo "... src/queue/PriorityQueue.o"
+	@echo "... src/queue/PriorityQueue.i"
+	@echo "... src/queue/PriorityQueue.s"
 .PHONY : help
 
 
